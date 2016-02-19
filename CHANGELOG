@@ -1,0 +1,33 @@
+- 1.4.4
+* Made "use default passcode" setting not require correct passcode set in Preferences
+- 1.4.3
+* Increased stability due to filter file
+* Added offset display to debug message
+- 1.4.2
+* Using this space to let people know timecode is 8.3/8.4 compatible
+* Added icon to preferences
+* Made all settings disabled by default
+* Added donation button to preferences
+- 1.4.1
+* Made debug mode more verbose
+* Made tweak not activate if passcode field is empty
+- 1.4
+* Cleaned up the preference panel
+* Added debug mode toggle
+* Fixed 12 hour clock not working at certain times
+- 1.3-1
+* I left debug mode enabled
+- 1.3
+* Fixed spelling error in preferences
+* Added support for non-simple passcodes
+* Fixed trailing 0s in passcode conversion
+- 1.2
+* Added 12-hour clock support
+* Made tweak disabled by default
+- 1.1
+* Fixed lockscreen failing when time starts with a zero
+* Added reverse time
+* Added email and Twitter links to preference panel
+* Added negative offset toggle
+- 1.0
+* Created tweak
