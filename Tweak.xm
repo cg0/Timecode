@@ -36,9 +36,9 @@
 			NSMutableString *reversedString = [NSMutableString string];
 			NSInteger charIndex = [newDateString length];
 			while (charIndex > 0) {
-    		charIndex--;
-    		NSRange subStrRange = NSMakeRange(charIndex, 1);
-    		[reversedString appendString:[newDateString substringWithRange:subStrRange]];
+		    		charIndex--;
+		    		NSRange subStrRange = NSMakeRange(charIndex, 1);
+		    		[reversedString appendString:[newDateString substringWithRange:subStrRange]];
 			}
 			newDateString = reversedString;
 		}
